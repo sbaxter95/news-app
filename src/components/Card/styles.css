@@ -1,5 +1,13 @@
 .topic-card {
-  border: 2px solid black;
   margin: 10px;
   flex: 1;
+  -webkit-box-shadow: 10px 10px 15px -8px rgba(148, 148, 148, 1);
+  -moz-box-shadow: 10px 10px 15px -8px rgba(148, 148, 148, 1);
+  box-shadow: 10px 10px 15px -8px rgba(148, 148, 148, 1);
+  border-radius: 20px;
+  border: solid 1px rgba(148, 148, 148, 0.2);
+}
+
+.icon-container {
+  margin-bottom: 30px;
 }

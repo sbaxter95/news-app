@@ -1,11 +1,14 @@
 import React from 'react';
 import './styles.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const TopicCard = props => {
   return (
     <div className="topic-card">
-      <p>{props.topic}</p>
-      <i class="fa fa-bullhorn" aria-hidden="true" />
+      <h3>{props.topic}</h3>
+      <div className="icon-container">
+        <FontAwesomeIcon icon={props.icon} size="3x" />
+      </div>
     </div>
   );
 };
