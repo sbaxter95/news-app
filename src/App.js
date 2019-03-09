@@ -1,25 +1,18 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import TopicCard from './components/Card/TopicCard';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <h1>News App</h1>
+        <h2>What topics are you interested in?</h2>
+        <div className="flex-grid">
+          <TopicCard topic="Politics" />
+          <TopicCard topic="Politics" />
+          <TopicCard topic="Politics" />
+        </div>
       </div>
     );
   }
