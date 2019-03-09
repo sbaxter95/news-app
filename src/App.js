@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
+
 import TopicCard from './components/Card/TopicCard';
+import Button from './components/Button/Button';
+
 import { faBullhorn } from '@fortawesome/free-solid-svg-icons';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { faHeartbeat } from '@fortawesome/free-solid-svg-icons';
@@ -31,6 +34,9 @@ class App extends Component {
           <TopicCard topic="Sports" icon={faFootballBall} />
           <TopicCard topic="Technology" icon={faLaptopCode} />
           <TopicCard topic="None" icon={faTimes} />
+        </div>
+        <div className="flex-grid-button">
+          <Button buttonText="Continue" />
         </div>
       </div>
     );

@@ -35,3 +35,9 @@
 .flex-grid {
   display: flex;
 }
+
+.flex-grid-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

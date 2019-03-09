@@ -1,0 +1,10 @@
+.button-container {
+  -webkit-box-shadow: 10px 10px 15px -8px rgba(148, 148, 148, 1);
+  -moz-box-shadow: 10px 10px 15px -8px rgba(148, 148, 148, 1);
+  box-shadow: 10px 10px 15px -8px rgba(148, 148, 148, 1);
+  border-radius: 20px;
+  flex: 1;
+  max-width: 300px;
+  background-color: rgb(55, 28, 209);
+  color: white;
+}
